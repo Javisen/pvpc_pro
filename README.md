@@ -19,6 +19,8 @@ La integración genera las siguientes entidades clave, proporcionando la informa
 * **Intensidad de CO2**: Impacto ambiental de la generación eléctrica actual.
 * **Periodo Tarifario**: Indicador del tramo horario vigente (P1, P2, P3).
 ---
+
+**Para acceder a todos los sensores es necesario el uso de TOKEN. Si no dispone de token puede solicitarlo en consultasios@ree.es indicando su nombre y apellidos**
 ## Instalación
 
 ### Opción 1: Repositorio Personalizado en HACS (Recomendado)
