@@ -64,8 +64,8 @@ class ElecPricesDataUpdateCoordinator(DataUpdateCoordinator[EsiosApiData]):
             hass,
             _LOGGER,
             config_entry=entry,
-            name=DOMAIN,  # Usará "pvpc_pro"
-            update_interval=timedelta(minutes=30),
+            name=DOMAIN, 
+            update_interval=timedelta(minutes=5),
         )
 
     @property
