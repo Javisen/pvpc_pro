@@ -33,9 +33,9 @@ La integración genera las siguientes entidades clave, proporcionando la informa
 3. Ve a **Ajustes** > **Dispositivos y Servicios** > **Añadir integración** y busca "PVPC REE Data (Pro)".
 
 ### Agradecimientos
- * ** A @azogue, creador de la integración oficial de PVPC para Home Assistant.**
- * ** A @oscarrgarciia por diseñar la estructura inicial de directorios en custom_components que ha servido de base para este proyecto.**
- * ** A Red Eléctrica de España por facilitar el acceso a los datos abiertos del sistema.
+ * **A @azogue, creador de la integración oficial de PVPC para Home Assistant.**
+ * **A @oscarrgarciia por diseñar la estructura inicial de directorios en custom_components que ha servido de base para este proyecto.**
+ * **A Red Eléctrica de España por facilitar el acceso a los datos abiertos del sistema.
 
 
 ## Dashboard Recomendado
