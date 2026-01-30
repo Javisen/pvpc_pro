@@ -18,7 +18,7 @@ La integración genera las siguientes entidades clave, proporcionando la informa
 * **Generación Renovables**: Porcentaje y potencia de energía limpia producida en el sistema.
 * **Intensidad de CO2**: Impacto ambiental de la generación eléctrica actual.
 * **Periodo Tarifario**: Indicador del tramo horario vigente (P1, P2, P3).
-
+---
 ## Instalación
 
 ### Opción 1: Repositorio Personalizado en HACS (Recomendado)
@@ -31,13 +31,19 @@ La integración genera las siguientes entidades clave, proporcionando la informa
 1. Copia la carpeta `pvpc_pro` dentro del directorio `custom_components` de tu instancia.
 2. Reinicia Home Assistant.
 3. Ve a **Ajustes** > **Dispositivos y Servicios** > **Añadir integración** y busca "PVPC REE Data (Pro)".
-
+---
 ### Agradecimientos
  * **A @azogue, creador de la integración oficial de PVPC para Home Assistant.**
  * **A @oscarrgarciia por diseñar la estructura inicial de directorios en custom_components que ha servido de base para este proyecto.**
  * **A Red Eléctrica de España por facilitar el acceso a los datos abiertos del sistema.**
-
-
+---
+### 🔄 Nota sobre el Historial de Datos
+Para no perder las estadísticas de largo plazo:
+1. Instala la nueva integración.
+2. Ve a **Ajustes** > **Entidades** y busca el nuevo sensor (ej: `sensor.pvpc_pro_precio_pvpc`).
+3. Cambia su **ID de entidad** para que coincida exactamente con el antiguo (ej: `sensor.esios_pvpc`).
+4. HA vinculará los nuevos datos con tu historial previo.
+---
 ## Dashboard Recomendado
 Para sacar el máximo partido a los atributos de 24h, se recomienda usar `apexcharts-card`. Aquí tienes un ejemplo de configuración para comparar el PVPC y el OMIE:
 
