@@ -22,6 +22,7 @@ La integración genera las siguientes entidades clave, proporcionando la informa
 
 **Para acceder a todos los sensores es necesario el uso de TOKEN. Si no dispone de token puede solicitarlo en consultasios@ree.es indicando su nombre y apellidos**
 ## Instalación
+---
 
 ### Opción 1: Repositorio Personalizado en HACS (Recomendado)
 1. En Home Assistant, dirígete a **HACS** > **Integraciones**.
@@ -40,6 +41,8 @@ La integración genera las siguientes entidades clave, proporcionando la informa
  * **A Red Eléctrica de España por facilitar el acceso a los datos abiertos del sistema.**
 ---
 ### 🔄 Nota sobre el Historial de Datos
+La integracion tiene una funcion para recuperar el id usado anteriormente si ya se tenia otra integración de ESIOS. Si cambia la id siga esta instrucciones.
+
 Para no perder las estadísticas de largo plazo:
 1. Instala la nueva integración.
 2. Ve a **Ajustes** > **Entidades** y busca el nuevo sensor (ej: `sensor.pvpc_pro_precio_pvpc`).
