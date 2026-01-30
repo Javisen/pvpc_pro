@@ -32,6 +32,12 @@ La integración genera las siguientes entidades clave, proporcionando la informa
 2. Reinicia Home Assistant.
 3. Ve a **Ajustes** > **Dispositivos y Servicios** > **Añadir integración** y busca "PVPC REE Data (Pro)".
 
+### Agradecimientos
+ * ** A @azogue, creador de la integración oficial de PVPC para Home Assistant.**
+ * ** A @oscarrgarciia por diseñar la estructura inicial de directorios en custom_components que ha servido de base para este proyecto.**
+ * ** A Red Eléctrica de España por facilitar el acceso a los datos abiertos del sistema.
+
+
 ## Dashboard Recomendado
 Para sacar el máximo partido a los atributos de 24h, se recomienda usar `apexcharts-card`. Aquí tienes un ejemplo de configuración para comparar el PVPC y el OMIE:
 
