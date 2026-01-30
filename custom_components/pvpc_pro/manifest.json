@@ -1,1 +1,10 @@
-...
+{
+  "domain": "pvpc_pro",
+  "name": "PVPC REE Data",
+  "version": "2026.1.30",
+  "documentation": "https://github.com/Javisen/pvpc_pro-fixed",
+  "issue_tracker": "https://github.com/Javisen/pvpc_pro-fixed/issues",
+  "codeowners": ["@Javisen"],
+  "config_flow": true,
+  "iot_class": "cloud_polling"
+}
